@@ -9,10 +9,15 @@ define('PROJECT_STATUS','development');
 // Language settings (Dutch)
 setlocale(LC_ALL, 'nl_NL');
 
-// Database settings
+//// Database settings
 define('DB_HOST','localhost');
 define('DB_NAME','Myband');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','root');
+
+//define('DB_HOST','localhost');
+//define('DB_NAME','myBand');
+//define('DB_USERNAME','myBand');
+//define('DB_PASSWORD','root1');
 
 ?>
