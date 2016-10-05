@@ -26,7 +26,8 @@ include('model/select_newsarticles.php');
 
 
 $templateParser->assign('result', $result);
-$templateParser->display('newsarticles.tpl');
+//$templateParser->display('newsarticles.tpl');
+$templateParser->display('about.tpl');
 
 $footerText = 'made by me for school';
 
