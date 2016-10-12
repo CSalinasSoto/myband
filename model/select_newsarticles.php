@@ -1,7 +1,7 @@
 <?php
 
-//$result = $mysqli->query("SELECT * FROM newsarticles");
-$result = $mysqli->query("SELECT * FROM about");
+$result = $mysqli->query("SELECT * FROM newsarticles");
+
 
 $result = resultToArray($result);
 

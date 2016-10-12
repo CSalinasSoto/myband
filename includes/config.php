@@ -14,7 +14,7 @@ define('DB_HOST','localhost');
 define('DB_NAME','Myband');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','root');
-
+//
 //define('DB_HOST','localhost');
 //define('DB_NAME','myBand');
 //define('DB_USERNAME','myBand');

@@ -19,18 +19,26 @@ $templateParser->display('head.tpl');
 $templateParser->display('header.tpl');
 
 // Get newsarticles from database
-include('model/select_newsarticles.php');
 
-// Show newsarticles 'old style' => refactor to template system.
-//include('views/newsarticles.php');
+$action = isset($_GET['action'])?$_GET['action']:'home';
 
+switch($action){
 
-$templateParser->assign('result', $result);
-//$templateParser->display('newsarticles.tpl');
-$templateParser->display('about.tpl');
+    case 'home':
+        include('model/select_newsarticles.php');
+        $templateParser->assign('result', $result);
+        $templateParser->display('newsarticles.tpl');
+        break;
 
+    case 'about':
+        include('model/select_about.php');
+        $templateParser->assign('result', $result);
+        $templateParser->display('about.tpl');
+}
 $footerText = 'made by me for school';
 
 $templateParser->assign('footerString', $footerText);
 
 $templateParser->display('footer.tpl');
+
+

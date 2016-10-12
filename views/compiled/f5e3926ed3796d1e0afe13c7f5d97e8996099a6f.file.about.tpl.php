@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-05 23:45:30
+<?php /* Smarty version Smarty-3.1.18, created on 2016-10-10 11:44:22
          compiled from "views/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:212695315657f574010719f3-50962620%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f5e3926ed3796d1e0afe13c7f5d97e8996099a6f' => 
     array (
       0 => 'views/about.tpl',
-      1 => 1475703928,
+      1 => 1476092660,
       2 => 'file',
     ),
   ),
@@ -31,15 +31,33 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 foreach ($_from as $_smarty_tpl->tpl_vars['oneItem']->key => $_smarty_tpl->tpl_vars['oneItem']->value) {
 $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
 ?>
+        <h1>Game Grumps</h1>
         <article>
-            <h1><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['name'];?>
-</h1>
+            <h2><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['name'];?>
+</h2>
             <img src="image/<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['image'];?>
 " alt="">
             <info><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['text'];?>
 </info>
+            <br>
+            
+                
+
+                    
+
+                        
+
+                            
+                            
+                            
+                        
+                    
+                
+            
+            
             <date><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['oneItem']->value['date'],"%e %B  %Y");?>
 </date>
         </article>
     <?php } ?>
-</section><?php }} ?>
+</section>
+<?php }} ?>

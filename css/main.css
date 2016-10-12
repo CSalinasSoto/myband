@@ -4,8 +4,7 @@
  */
 
 body {
-	
-
+	background:url("../image/orange.png") no-repeat center center fixed;
 }
 
 .desc {
@@ -19,6 +18,42 @@ body {
 		
 }
 
+
 img{
 	width: 300px;
+}
+
+.colour-background-twitter{
+	background-color: transparent;
+}
+.colour-fill-light {
+	fill: #55acee; }
+.colour-fill-light * {
+	fill: #55acee; }
+
+ul{
+	border-radius: 100px;
+}
+
+li {
+	float: right;
+	display: inline;
+	list-style-type: none;
+}
+
+a {
+	display: block;
+	padding: 8px;
+	background-color: black;
+}
+
+li a {
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: orange;
 }
