@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Merriweather);
+/*@import url(http://fonts.googleapis.com/css?family=Merriweather);*/
 *,
 *:before,
 *:after {
@@ -8,9 +8,8 @@
 }
 
 html, body {
-    background-image: url("image/orange.png")
+
     font-family: 'Merriweather', sans-serif;
-    padding: 1em;
 }
 
 h1 {
@@ -20,9 +19,10 @@ h1 {
 }
 
 form {
-    max-width: 600px;
+    max-width: 100%;
     text-align: center;
-    margin: 20px auto;
+    margin: auto;
+
 }
 form input, form textarea {
     border: 0;
@@ -40,20 +40,14 @@ form input, form textarea {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     resize: none;
 }
-form input:focus, form textarea:focus {
-    -moz-box-shadow: 0 0px 2px #e74c3c !important;
-    -webkit-box-shadow: 0 0px 2px #e74c3c !important;
-    box-shadow: 0 0px 2px #e74c3c !important;
-}
+
 form #input-submit {
     color: white;
-    background: #e74c3c;
+    background: black;
     cursor: pointer;
 }
 form #input-submit:hover {
-    -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
-    -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
-    box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+    background: orange;
 }
 form textarea {
     height: 126px;
@@ -92,3 +86,5 @@ form textarea {
 .cf:after {
     clear: both;
 }
+
+

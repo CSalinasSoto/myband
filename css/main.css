@@ -19,9 +19,9 @@ body {
 }
 
 
-img{
-	width: 300px;
-}
+/*img{*/
+	/*width: 300px;*/
+/*}*/
 
 ul {
 	list-style-type: none;
@@ -30,7 +30,7 @@ ul {
 	overflow: hidden;
 	background-color: black;
 	margin-left: -10px;
-	width: 1282px;
+	width: 101.45%;
 }
 
 li {
@@ -72,7 +72,6 @@ li .nav:hover {
 
 #ban{
 	margin: -10px;
-	width: 1282px;
 }
 
 .frame{
@@ -84,3 +83,63 @@ li .nav:hover {
 	margin-bottom: -2px;
 }
 
+.container{
+	margin:40px;
+	background-color: white;
+	width: 548px;
+	height: 59px;
+}
+
+.datum{
+	background-color: orange;
+	width: 68px;
+	height: 59px;
+}
+
+.datum_time{
+	font-size: 17px;
+	display: block;
+	text-align: center;
+	font-family:"Arial";
+	font-style: normal;
+	word-spacing: 50px;
+
+}
+
+.info{
+	margin-top: -75px;
+	margin-left:68px;
+	width: 179px;
+	height: 59px;
+	background:bisque;
+}
+
+.info_time{
+	margin-top: -15px;
+}
+
+.live{
+	margin-top: -71px;
+	margin-left: 179px;
+	width: 301px;
+	height: 59px;
+	background: pink;
+}
+
+.live_text{
+	margin-top: 10px;
+}
+
+.button{
+	float: right;
+	margin-top: -62px;
+	cursor: pointer;
+	width: 96px;
+	height: 27px;
+	background: inherit;
+	background-color: rgba(22, 155, 213, 1);
+	border-radius: 5px;
+	display: block;
+	color: white;
+	box-shadow: white;
+}

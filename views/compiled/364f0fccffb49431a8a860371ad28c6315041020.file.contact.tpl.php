@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-24 10:49:00
+<?php /* Smarty version Smarty-3.1.18, created on 2016-10-25 16:59:12
          compiled from "views/contact.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1401159859580db726a56d63-62089716%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '364f0fccffb49431a8a860371ad28c6315041020' => 
     array (
       0 => 'views/contact.tpl',
-      1 => 1477298939,
+      1 => 1477407211,
       2 => 'file',
     ),
   ),
@@ -46,22 +46,5 @@ $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
     <input type="submit" value="Submit" id="input-submit">
 </form>
 <?php } ?>
-
-
-
-    
-        
-        
-            
-            
-        
-        
-            
-            
-        
-    
-
-
-        
-
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9739.465954656873!2d4.856629863302593!3d52.39097058687136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5dffd675d740eddb!2sMediacollege+Amsterdam+hoofdgebouw!5e0!3m2!1snl!2snl!4v1477406323410" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 <?php }} ?>

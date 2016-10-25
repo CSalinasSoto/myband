@@ -41,6 +41,10 @@ switch($action){
         include('model/select_contact.php');
         $templateParser->assign('result', $result);
         $templateParser->display('contact.tpl');
+        break;
+    case 'live':
+        $templateParser->display('live.tpl');
+
 }
 $footerText = 'made by me for school';
 
