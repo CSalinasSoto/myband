@@ -6,7 +6,7 @@ function resultToArray($DBResult){
         $resultArray[] = $row;
     }
 
-//    print_r($resultArray);
+//   print_r($resultArray);
     return $resultArray;
 
 }

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-10 11:21:39
+<?php /* Smarty version Smarty-3.1.18, created on 2016-10-24 12:11:48
          compiled from "views/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:173849697357f222a0619b60-81316132%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '060abf0b97e0af3d1307708ca95b6c89fd7a5b4a' => 
     array (
       0 => 'views/header.tpl',
-      1 => 1476091298,
+      1 => 1477303812,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57f222a0675d99_26125765')) {function content_57f222a0675d99_26125765($_smarty_tpl) {?><header>
+    <img src="image/gamegrumps.png" alt="" id="ban">
         <nav>
             <ul>
-                <li><a href="?action=home">Home</a></li>
-                <li><a href="?action=about">About</a></li>
+                <li><a class="nav" href="?action=home">Home</a></li>
+                <li><a class="nav" href="?action=about">About</a></li>
+                <li><a class="nav" href="?action=contact">Contact</a></li>
+                
             </ul>
         </nav>
-</header><?php }} ?>
+</header>
+<?php }} ?>

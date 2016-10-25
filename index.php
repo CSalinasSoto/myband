@@ -25,6 +25,7 @@ $action = isset($_GET['action'])?$_GET['action']:'home';
 switch($action){
 
     case 'home':
+        $page= isset($_GET['page'])?$_GET['page']:1;
         include('model/select_newsarticles.php');
         $templateParser->assign('result', $result);
         $templateParser->display('newsarticles.tpl');
@@ -34,6 +35,12 @@ switch($action){
         include('model/select_about.php');
         $templateParser->assign('result', $result);
         $templateParser->display('about.tpl');
+        break;
+
+    case 'contact':
+        include('model/select_contact.php');
+        $templateParser->assign('result', $result);
+        $templateParser->display('contact.tpl');
 }
 $footerText = 'made by me for school';
 

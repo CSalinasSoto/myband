@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-10 11:44:22
+<?php /* Smarty version Smarty-3.1.18, created on 2016-10-14 12:35:49
          compiled from "views/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:212695315657f574010719f3-50962620%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f5e3926ed3796d1e0afe13c7f5d97e8996099a6f' => 
     array (
       0 => 'views/about.tpl',
-      1 => 1476092660,
+      1 => 1476441345,
       2 => 'file',
     ),
   ),
@@ -31,30 +31,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 foreach ($_from as $_smarty_tpl->tpl_vars['oneItem']->key => $_smarty_tpl->tpl_vars['oneItem']->value) {
 $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
 ?>
-        <h1>Game Grumps</h1>
+        <h1>Game Grumps crew</h1>
         <article>
             <h2><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['name'];?>
 </h2>
             <img src="image/<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['image'];?>
 " alt="">
+            <br>
+            <a href='<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['link'];?>
+' target="_blank" class="twitterbird">
+                    <img src="image/twitter.png" alt="logo twitter" class="mad">
+            </a>
+            <br>
             <info><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['text'];?>
 </info>
             <br>
-            
-                
 
-                    
-
-                        
-
-                            
-                            
-                            
-                        
-                    
-                
-            
-            
             <date><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['oneItem']->value['date'],"%e %B  %Y");?>
 </date>
         </article>

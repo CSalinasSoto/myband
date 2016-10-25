@@ -20,4 +20,5 @@ define('DB_PASSWORD','root');
 //define('DB_USERNAME','myBand');
 //define('DB_PASSWORD','root1');
 
+define('ITEM_PAGE',2)
 ?>

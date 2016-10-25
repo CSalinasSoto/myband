@@ -23,37 +23,64 @@ img{
 	width: 300px;
 }
 
-.colour-background-twitter{
-	background-color: transparent;
-}
-.colour-fill-light {
-	fill: #55acee; }
-.colour-fill-light * {
-	fill: #55acee; }
-
-ul{
-	border-radius: 100px;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	margin-left: -10px;
+	width: 1282px;
 }
 
 li {
-	float: right;
+	float:left;
 	display: inline;
 	list-style-type: none;
 }
 
-a {
+.nav {
 	display: block;
-	padding: 8px;
+	padding: 10px;
 	background-color: black;
 }
 
-li a {
+li .nav {
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
-li a:hover {
+li .nav:hover {
 	background-color: orange;
 }
+
+.mad{
+	width: 80px;
+	transition: all .2s ease-in-out;
+}
+.mad:hover{
+	transform: scale(1.1);
+}
+.twitterbird{
+	text-decoration: none;
+}
+.niks{
+	float: left;
+}
+
+#ban{
+	margin: -10px;
+	width: 1282px;
+}
+
+.frame{
+	margin:10px;
+}
+
+.frame h3{
+	margin-top: -4px;
+	margin-bottom: -2px;
+}
+

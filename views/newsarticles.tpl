@@ -11,4 +11,9 @@
 
 </section>
 
+<ul class="niks">
+    <li><a href="?action=home&page=2">2</a></li>
+    <li><a href="?action=home&page=1">1</a></li>
+</ul>
+
 
