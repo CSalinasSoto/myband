@@ -75,16 +75,27 @@ li .nav:hover {
 }
 
 .frame{
+	margin-left: -200px;
 	margin:10px;
+	display: inline-block;
 }
 
 .frame h3{
-	margin-top: -4px;
-	margin-bottom: -2px;
+	margin-left: 45px;
+	margin-top: -1px;
+	margin-bottom: -3px;
 }
 
-.container{
-	margin:40px;
+.frame datum{
+	margin-left: 45px;
+}
+.frame iframe{
+	margin-left: 45px;
+}
+
+.wrap{
+	margin:auto;
+
 	background-color: white;
 	width: 548px;
 	height: 59px;
@@ -94,11 +105,11 @@ li .nav:hover {
 	background-color: orange;
 	width: 68px;
 	height: 59px;
+	display: block;
 }
 
 .datum_time{
 	font-size: 17px;
-	display: block;
 	text-align: center;
 	font-family:"Arial";
 	font-style: normal;
@@ -107,11 +118,12 @@ li .nav:hover {
 }
 
 .info{
+	border-right: solid black 1px;
+
 	margin-top: -75px;
 	margin-left:68px;
 	width: 179px;
 	height: 59px;
-	background:bisque;
 }
 
 .info_time{
@@ -119,15 +131,22 @@ li .nav:hover {
 }
 
 .live{
-	margin-top: -71px;
-	margin-left: 179px;
+	border-right: solid black 1px;
+
+
+	margin-top: -75px;
+	margin-left: 247px;
 	width: 301px;
 	height: 59px;
-	background: pink;
 }
 
 .live_text{
 	margin-top: 10px;
+}
+
+p .live_game{
+	margin-top: 60px;
+	text-align: center;
 }
 
 .button{
@@ -142,4 +161,31 @@ li .nav:hover {
 	display: block;
 	color: white;
 	box-shadow: white;
+	font-family: "Arial";
 }
+
+ul.pagination {
+	background: black;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	width: auto;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+	color: white;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+ul.pagination li a:hover(.active){
+	background-color: orange;
+}
+
+.center{
+	text-align: center;
+}
+

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-24 12:39:05
+<?php /* Smarty version Smarty-3.1.18, created on 2016-10-27 09:14:29
          compiled from "views/home.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2031578584580dcba3e13a06-40715633%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '570df2431eb6187ff2e8ad8d165d99b600730087' => 
     array (
       0 => 'views/home.tpl',
-      1 => 1477305543,
+      1 => 1477552458,
       2 => 'file',
     ),
   ),
@@ -31,12 +31,21 @@ foreach ($_from as $_smarty_tpl->tpl_vars['oneItem']->key => $_smarty_tpl->tpl_v
 $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
 ?>
 <div class="frame">
-<iframe width="420" height="315" src="https://www.youtube.com/embed/<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['link'];?>
+<iframe width="320" height="240" src="https://www.youtube.com/embed/<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['link'];?>
 " frameborder="0" allowfullscreen></iframe>
-    <h3><?php echo smarty_modifier_truncate($_smarty_tpl->tpl_vars['oneItem']->value['title'],50);?>
+    <h3><?php echo smarty_modifier_truncate($_smarty_tpl->tpl_vars['oneItem']->value['title'],40);?>
 </h3>
-    <datum><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['date'];?>
+    <datum ><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['date'];?>
 </datum>
 
 </div>
-<?php } ?><?php }} ?>
+<?php } ?>
+<br>
+<div class="center">
+<ul class="pagination">
+    <li><a href="?action=home&page=1">1</a></li>
+    <li><a href="?action=home&page=2">2</a></li>
+</ul>
+</div>
+
+<?php }} ?>

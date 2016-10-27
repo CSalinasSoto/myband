@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-24 11:48:37
+<?php /* Smarty version Smarty-3.1.18, created on 2016-10-26 13:45:21
          compiled from "views/newsarticles.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:9410395057f228b67ff3b8-41505365%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '08a5f4b5596e58361f517860f8b37beb43c98474' => 
     array (
       0 => 'views/newsarticles.tpl',
-      1 => 1477300307,
+      1 => 1477482319,
       2 => 'file',
     ),
   ),
@@ -48,8 +48,8 @@ $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
 </section>
 
 <ul class="niks">
-    <li><a href="?action=home&page=2">2</a></li>
     <li><a href="?action=home&page=1">1</a></li>
+    <li><a href="?action=home&page=2">2</a></li>
 </ul>
 
 

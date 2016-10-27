@@ -26,9 +26,9 @@ switch($action){
 
     case 'home':
         $page= isset($_GET['page'])?$_GET['page']:1;
-        include('model/select_newsarticles.php');
+        include('model/select_home.php');
         $templateParser->assign('result', $result);
-        $templateParser->display('newsarticles.tpl');
+        $templateParser->display('home.tpl');
         break;
 
     case 'about':
@@ -43,6 +43,8 @@ switch($action){
         $templateParser->display('contact.tpl');
         break;
     case 'live':
+        include('model/select_live.php');
+        $templateParser->assign('result', $result);
         $templateParser->display('live.tpl');
 
 }
