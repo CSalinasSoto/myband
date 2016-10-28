@@ -46,6 +46,20 @@ switch($action){
         include('model/select_live.php');
         $templateParser->assign('result', $result);
         $templateParser->display('live.tpl');
+        break;
+    case 'admin_video':
+        include('model/admin_video.php');
+        $templateParser->display('admin_video.tpl');
+        break;
+    case 'admin_delete':
+        include ('model/admin_delete.php');
+        break;
+    case 'admin_change':
+        include ('model/select_about.php');
+        include ('model/admin_change.php');
+        $templateParser->assign('result', $result);
+        $templateParser->display('admin_change.tpl');
+
 
 }
 $footerText = 'made by me for school';
