@@ -4,7 +4,7 @@
  */
 
 body {
-	background:url("../image/orange.png") no-repeat center center fixed;
+	background:url("../image/orange.png") no-repeat center fixed;
 }
 
 .desc {
@@ -43,9 +43,11 @@ li {
 	display: block;
 	padding: 10px;
 	background-color: black;
+
 }
 
 li .nav {
+
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
@@ -59,6 +61,7 @@ li .nav:hover {
 .mad{
 	width: 80px;
 	transition: all .2s ease-in-out;
+	cursor: pointer;
 }
 .mad:hover{
 	transform: scale(1.1);
@@ -181,11 +184,26 @@ ul.pagination li a {
 	text-decoration: none;
 }
 
-ul.pagination li a:hover(.active){
+ul.pagination li a:hover{
 	background-color: orange;
 }
 
 .center{
 	text-align: center;
 }
+
+.wrapper_about{
+	text-align: center;
+	width: 33%;
+	background: white;
+	display: inline-block;
+}
+
+.wrapper_about .pasfoto{
+
+	width: 300px;
+	height: 300px;
+}
+
+
 

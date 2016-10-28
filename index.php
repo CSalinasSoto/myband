@@ -12,7 +12,7 @@ include 'includes/database.php';
 include 'includes/fun.php';
 
 // Assign value of page title to the smarty variable 'title', usually the value comes from a database
-$templateParser->assign('title', 'Me First And The Gimme Gimmes');
+$templateParser->assign('title', 'Game Grumps');
 
 // Display template: output html
 $templateParser->display('head.tpl');
@@ -53,6 +53,7 @@ switch($action){
         break;
     case 'admin_delete':
         include ('model/admin_delete.php');
+        $templateParser->display('admin_delete.tpl');
         break;
     case 'admin_change':
         include ('model/select_about.php');

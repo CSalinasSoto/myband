@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-28 10:20:51
+<?php /* Smarty version Smarty-3.1.18, created on 2016-10-28 12:11:15
          compiled from "views/admin_video.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:7434963305812f86d17e482-26600190%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1c20cd6c3ab7d427e0c08d6ed6776ad67c3f522e' => 
     array (
       0 => 'views/admin_video.tpl',
-      1 => 1477638762,
+      1 => 1477648312,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     <input type="text" name="title" placeholder="title" required>
     <input type="date" name="date" required>
     <input type="text" name="link" placeholder="link(last part)" required>
-    <input type="submit" value="submit">
+    <input type="submit" value="submit" name="submit">
 </form>
 
 <?php }} ?>

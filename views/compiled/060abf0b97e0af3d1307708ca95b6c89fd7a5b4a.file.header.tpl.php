@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-28 10:28:19
+<?php /* Smarty version Smarty-3.1.18, created on 2016-10-28 15:07:15
          compiled from "views/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:173849697357f222a0619b60-81316132%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '060abf0b97e0af3d1307708ca95b6c89fd7a5b4a' => 
     array (
       0 => 'views/header.tpl',
-      1 => 1477643290,
+      1 => 1477659538,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57f222a0675d99_26125765')) {function content_57f222a0675d99_26125765($_smarty_tpl) {?><header>
-    <img src="image/gamegrumps.png" alt="" id="ban" width="101.45%">
+    <img src="image/gamegrumps.png" id="ban" width="101.45%">
         <nav>
             <ul>
                 <li><a class="nav" href="?action=home">Home</a></li>

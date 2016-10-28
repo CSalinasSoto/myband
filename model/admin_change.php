@@ -21,5 +21,9 @@ if(isset($_POST['submit'])) {
     $result = $mysqli->query($sql);
 
     header('Location: ../about.tpl');
+    ?>
+    <script>window.location = '?action=about'</script>
+    <?php
 }
+
 

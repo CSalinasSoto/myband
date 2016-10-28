@@ -1,5 +1,5 @@
 <header>
-    <img src="image/gamegrumps.png" alt="" id="ban" width="101.45%">
+    <img src="image/gamegrumps.png" id="ban" width="101.45%">
         <nav>
             <ul>
                 <li><a class="nav" href="?action=home">Home</a></li>
