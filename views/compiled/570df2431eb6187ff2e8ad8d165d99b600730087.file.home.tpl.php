@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-28 14:27:11
+<?php /* Smarty version Smarty-3.1.18, created on 2016-10-29 17:44:38
          compiled from "views/home.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2031578584580dcba3e13a06-40715633%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '570df2431eb6187ff2e8ad8d165d99b600730087' => 
     array (
       0 => 'views/home.tpl',
-      1 => 1477657629,
+      1 => 1477755850,
       2 => 'file',
     ),
   ),
@@ -45,6 +45,7 @@ $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
 <ul class="pagination">
     <li><a href="?action=home&page=1">1</a></li>
     <li><a href="?action=home&page=2">2</a></li>
+    <li><a href="?action=home&page=3">3</a></li>
 </ul>
 </div>
 

@@ -59,16 +59,19 @@ li .nav:hover {
 }
 
 .mad{
-	width: 80px;
+	height: 70px;
+	width: 70px;
 	transition: all .2s ease-in-out;
 	cursor: pointer;
 }
 .mad:hover{
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
+
 .twitterbird{
 	text-decoration: none;
 }
+
 .niks{
 	float: left;
 }
@@ -205,5 +208,8 @@ ul.pagination li a:hover{
 	height: 300px;
 }
 
+pre{
+	background-color: white;
+}
 
 

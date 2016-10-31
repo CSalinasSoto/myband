@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-28 15:11:33
+<?php /* Smarty version Smarty-3.1.18, created on 2016-10-30 21:00:40
          compiled from "views/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:212695315657f574010719f3-50962620%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f5e3926ed3796d1e0afe13c7f5d97e8996099a6f' => 
     array (
       0 => 'views/about.tpl',
-      1 => 1477660279,
+      1 => 1477779717,
       2 => 'file',
     ),
   ),
@@ -42,9 +42,9 @@ $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
             <a href='<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['link'];?>
 ' target="_blank" class="twitterbird">
                     <img src="image/twitter.png" alt="logo twitter" class="mad">
-                    <img src="image/twitter.png" alt="logo twitter" class="mad">
-                    <img src="image/twitter.png" alt="logo twitter" class="mad">
-                    <img src="image/twitter.png" alt="logo twitter" class="mad">
+                    <img src="image/instagram.png" alt="logo instagram" class="mad">
+                    <img src="image/youtube.png" alt="logo youtube" class="mad">
+                    <img src="image/youtube.png" alt="logo youtube" class="mad">
             </a>
             <br>
             <info><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['text'];?>

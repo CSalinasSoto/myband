@@ -11,6 +11,7 @@
 <ul class="pagination">
     <li><a href="?action=home&page=1">1</a></li>
     <li><a href="?action=home&page=2">2</a></li>
+    <li><a href="?action=home&page=3">3</a></li>
 </ul>
 </div>
 

@@ -8,9 +8,9 @@
             <br>
             <a href='{$oneItem.link}' target="_blank" class="twitterbird">
                     <img src="image/twitter.png" alt="logo twitter" class="mad">
-                    <img src="image/twitter.png" alt="logo twitter" class="mad">
-                    <img src="image/twitter.png" alt="logo twitter" class="mad">
-                    <img src="image/twitter.png" alt="logo twitter" class="mad">
+                    <img src="image/instagram.png" alt="logo instagram" class="mad">
+                    <img src="image/youtube.png" alt="logo youtube" class="mad">
+                    <img src="image/youtube.png" alt="logo youtube" class="mad">
             </a>
             <br>
             <info>{$oneItem.text}</info>

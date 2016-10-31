@@ -11,6 +11,7 @@ include 'includes/database.php';
 
 include 'includes/fun.php';
 
+
 // Assign value of page title to the smarty variable 'title', usually the value comes from a database
 $templateParser->assign('title', 'Game Grumps');
 
@@ -39,7 +40,7 @@ switch($action){
 
     case 'contact':
         include('model/select_contact.php');
-        $templateParser->assign('result', $result);
+//        $templateParser->assign('result', $result);
         $templateParser->display('contact.tpl');
         break;
     case 'live':
@@ -60,6 +61,10 @@ switch($action){
         include ('model/admin_change.php');
         $templateParser->assign('result', $result);
         $templateParser->display('admin_change.tpl');
+        break;
+
+    default:
+        $templateParser->display('default.tpl');
 
 
 }
