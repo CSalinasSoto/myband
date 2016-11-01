@@ -28,6 +28,9 @@ switch($action){
     case 'home':
         $page= isset($_GET['page'])?$_GET['page']:1;
         include('model/select_home.php');
+        include ('model/get_nr_items.php');
+        $nr_of_pages = ceil($total_nr_home/ITEM_PAGE);
+        $templateParser->assign('nr_of_pages', $nr_of_pages);
         $templateParser->assign('result', $result);
         $templateParser->display('home.tpl');
         break;

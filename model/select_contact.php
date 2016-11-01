@@ -4,7 +4,6 @@
 //$result = resultToArray($result);
 
 if (isset($_POST['email']))  {
-    //Email information
     $admin_email = '18510@ma-web.nl';
     $email = $_POST['email'];
     $subject = $_POST['subject'];

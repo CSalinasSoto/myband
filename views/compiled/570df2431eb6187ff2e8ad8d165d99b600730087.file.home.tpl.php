@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-10-29 17:44:38
+<?php /* Smarty version Smarty-3.1.18, created on 2016-10-31 12:24:38
          compiled from "views/home.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2031578584580dcba3e13a06-40715633%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '570df2431eb6187ff2e8ad8d165d99b600730087' => 
     array (
       0 => 'views/home.tpl',
-      1 => 1477755850,
+      1 => 1477912632,
       2 => 'file',
     ),
   ),
@@ -21,6 +21,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   array (
     'result' => 0,
     'oneItem' => 0,
+    'nr_of_pages' => 0,
+    'i' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -37,15 +39,21 @@ $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
 </h3>
     <datum ><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['date'];?>
 </datum>
-
 </div>
 <?php } ?>
 <br>
+
+
 <div class="center">
 <ul class="pagination">
-    <li><a href="?action=home&page=1">1</a></li>
-    <li><a href="?action=home&page=2">2</a></li>
-    <li><a href="?action=home&page=3">3</a></li>
+    <?php $_smarty_tpl->tpl_vars['i'] = new Smarty_Variable;$_smarty_tpl->tpl_vars['i']->step = 1;$_smarty_tpl->tpl_vars['i']->total = (int) ceil(($_smarty_tpl->tpl_vars['i']->step > 0 ? $_smarty_tpl->tpl_vars['nr_of_pages']->value+1 - (1) : 1-($_smarty_tpl->tpl_vars['nr_of_pages']->value)+1)/abs($_smarty_tpl->tpl_vars['i']->step));
+if ($_smarty_tpl->tpl_vars['i']->total > 0) {
+for ($_smarty_tpl->tpl_vars['i']->value = 1, $_smarty_tpl->tpl_vars['i']->iteration = 1;$_smarty_tpl->tpl_vars['i']->iteration <= $_smarty_tpl->tpl_vars['i']->total;$_smarty_tpl->tpl_vars['i']->value += $_smarty_tpl->tpl_vars['i']->step, $_smarty_tpl->tpl_vars['i']->iteration++) {
+$_smarty_tpl->tpl_vars['i']->first = $_smarty_tpl->tpl_vars['i']->iteration == 1;$_smarty_tpl->tpl_vars['i']->last = $_smarty_tpl->tpl_vars['i']->iteration == $_smarty_tpl->tpl_vars['i']->total;?>
+        <li><a href="?action=home&page=<?php echo $_smarty_tpl->tpl_vars['i']->value;?>
+"><?php echo $_smarty_tpl->tpl_vars['i']->value;?>
+</a></li>
+    <?php }} ?>
 </ul>
 </div>
 
