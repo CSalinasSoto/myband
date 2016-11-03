@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2016-11-01 15:52:40
+<?php /* Smarty version Smarty-3.1.18, created on 2016-11-03 10:17:17
          compiled from "views/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:212695315657f574010719f3-50962620%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f5e3926ed3796d1e0afe13c7f5d97e8996099a6f' => 
     array (
       0 => 'views/about.tpl',
-      1 => 1478011958,
+      1 => 1478164344,
       2 => 'file',
     ),
   ),
@@ -36,28 +36,25 @@ $_smarty_tpl->tpl_vars['oneItem']->_loop = true;
         <article>
             <h2 ><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['name'];?>
 </h2>
-            <img src="image/<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['image'];?>
+            <img src="<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['image'];?>
 " class="pasfoto">
             <br>
             <a href='<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['link'];?>
 ' target="_blank" class="twitterbird">
                     <img src="image/twitter.png" alt="logo twitter" class="mad">
             </a>
-            <a href='<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['link'];?>
+            <a href='<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['link2'];?>
 ' target="_blank" class="twitterbird">
                 <img src="image/youtube.png" alt="logo twitter" class="mad">
             </a>
-            <a href='<?php echo $_smarty_tpl->tpl_vars['oneItem']->value['link'];?>
-' target="_blank" class="twitterbird">
-                <img src="image/youtube.png" alt="logo twitter" class="mad">
-            </a>
-
             <br>
+            <div class="full">
             <info><?php echo $_smarty_tpl->tpl_vars['oneItem']->value['text'];?>
 </info>
-            <br>
+            </div>
 
-            <date><?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['oneItem']->value['date'],"%e %B  %Y");?>
+
+            <date>Birthday is: <?php echo smarty_modifier_date_format($_smarty_tpl->tpl_vars['oneItem']->value['date'],"%e %B");?>
 </date>
         </article>
         </div>

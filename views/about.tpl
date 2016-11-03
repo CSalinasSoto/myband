@@ -4,23 +4,21 @@
         <div class="wrapper_about">
         <article>
             <h2 >{$oneItem.name}</h2>
-            <img src="image/{$oneItem.image}" class="pasfoto">
+            <img src="{$oneItem.image}" class="pasfoto">
             <br>
             <a href='{$oneItem.link}' target="_blank" class="twitterbird">
                     <img src="image/twitter.png" alt="logo twitter" class="mad">
             </a>
-            <a href='{$oneItem.link}' target="_blank" class="twitterbird">
+            <a href='{$oneItem.link2}' target="_blank" class="twitterbird">
                 <img src="image/youtube.png" alt="logo twitter" class="mad">
             </a>
-            <a href='{$oneItem.link}' target="_blank" class="twitterbird">
-                <img src="image/youtube.png" alt="logo twitter" class="mad">
-            </a>
-
             <br>
+            <div class="full">
             <info>{$oneItem.text}</info>
-            <br>
+            </div>
 
-            <date>{$oneItem.date|date_format:"%e %B  %Y"}</date>
+
+            <date>Birthday is: {$oneItem.date|date_format:"%e %B"}</date>
         </article>
         </div>
     {/foreach}

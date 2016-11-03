@@ -76,7 +76,7 @@ li .nav:hover {
 	float: left;
 }
 
-#ban{
+.ban{
 	margin: -10px;
 }
 
@@ -199,18 +199,35 @@ ul.pagination li a:hover{
 	text-align: center;
 	width: 33%;
 	background: white;
-	display: inline-block;
+	display: inline-flex;
 	margin-bottom: 4px;
+
 }
 
 .wrapper_about .pasfoto{
 
-	width: 300px;
-	height: 310px;
+	width: 288.5px;
+	height: 288.5px;
+
+}
+.wrapper_about .full{
+	overflow: hidden;
+	background: black;
+	width: 100%;
+	color: ghostwhite;
 }
 
 pre{
 	background-color: white;
 }
 
+.mySlides {
+	display:none;
+}
+
+.all {
+	width: 33%;
+	background: grey;
+	display: block;
+}
 

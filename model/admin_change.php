@@ -6,10 +6,12 @@ if(isset($_POST['submit'])) {
     $link = $_POST['link'];
     $id = $_POST['id'];
     $image = $_POST['image'];
-    $sql = "UPDATE about SET name='" . $name . "', text='" . $text . "', date='" . $date . "',  image='" . $image . "',link='" . $link . "' WHERE id='" . $id . "' ";
+    $sql = "UPDATE about SET name='" . $name . "', text='" . $text . "', date='" . $date . "', image='" . $image . "',link='" . $link . "' WHERE id='$id'";
     $result = $mysqli->query($sql);
+
     ?>
     <script>window.location = '?action=about'</script>
     <?php
 }
+
 

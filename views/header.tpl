@@ -1,5 +1,9 @@
 <header>
-    <img src="image/gamegrumps.png" id="ban" width="101.45%">
+    <div class="contentBan" style="max-height:300px">
+        <img class="mySlides ban" src="image/gamegrumps.png" style="width:101.45%">
+        <img class="mySlides ban" src="image/gamegrumps2.png" style="width:101.45%">
+        <img class="mySlides ban" src="image/gamegrumps3.png" style="width:101.45%">
+    </div>
         <nav>
             <ul>
                 <li><a class="nav" href="?action=home">Home</a></li>

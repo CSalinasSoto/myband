@@ -3,17 +3,17 @@
 
     <channel>
         <title>W3Schools Home Page</title>
-        <link>http://www.w3schools.com</link>
-        <description>Free web building tutorials</description>
+        <link>http://18510.hosts.ma-cloud.nl/School/periode5/myband/index.php</link>
+        <description>Fan site Game Grumps</description>
         <item>
-            <title>RSS Tutorial</title>
-            <link>http://www.w3schools.com/xml/xml_rss.asp</link>
-            <description>New RSS tutorial on W3Schools</description>
+            <title>Live show</title>
+            <link>http://18510.hosts.ma-cloud.nl/School/periode5/myband/index.php?action=live</link>
+            <description>staat wanneer de live show wordt gehouden en waar het plaats vind.</description>
         </item>
         <item>
-            <title>XML Tutorial</title>
-            <link>http://www.w3schools.com/xml</link>
-            <description>New XML tutorial on W3Schools</description>
+            <title>About</title>
+            <link>http://18510.hosts.ma-cloud.nl/School/periode5/myband/index.php?action=about</link>
+            <description>gaat over de mensen die op game grumps voor komen en links van iedere sociaal media</description>
         </item>
     </channel>
 
